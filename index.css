@@ -1,4 +1,5 @@
 body {
+	padding-bottom: 0px;
 	padding: 0px;
 	margin: 0px;
 }
@@ -57,4 +58,30 @@ body {
 	text-indent: 20px;
 	padding: 10px;
 	line-height: 20px;
+}
+
+.ProjectSection {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border: 1px solid black;
+}
+
+.ProjectEntry {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+
+.ProjectEntry > h2 {
+	margin-left: 10px;
+}
+
+.ProjectEntry > input {
+	margin-right: 10px;
+	margin-left: auto;
+	width: 200px;
+	height: 50px;
 }
