@@ -47,4 +47,16 @@ body {
 .ProjectEntry {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+.ProjectEntry > h2{
+	margin-left: 10px;
+}
+.ProjectEntry > input{
+	margin-right: 10px;
+	margin-left: auto;
+	height: 50px;
+	width: 200px;
+	box-shadow: 0px 5px 10px;
 }
